@@ -13,6 +13,10 @@
 
      <button onclick="sendMessage()"> Send Msg </button>
 
+     <button onclick="printOne()"> One </button>
+  
+     <button onclick="printTwo()"> Two </button>
+
      <!-- 2. onmouseover -->
      <button onmouseover = "alert('Button is clicked..')"> Send Message</button>
 
@@ -23,9 +27,19 @@
      <button onmouseout="console.log('mouse goes out')">Mouse Events</button>
 
      <script>
+      
         function sendMessage(){
           alert("Sending Message To Anand...🤗");
         }
+
+        function printOne(){
+         console.log(1);
+       }
+
+        function printTwo(){
+         console.log(2);
+       }
+
       </script>
 </body>
 </html>
